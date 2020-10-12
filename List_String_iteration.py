@@ -4,7 +4,6 @@
 def skip_elements(elements):
 	# Initialize variables
 	new_list = []
-  
 	# Iterate through the list
 	for index, element in enumerate(elements):
 		# Does this element belong in the resulting list?
@@ -12,8 +11,6 @@ def skip_elements(elements):
 			# Add this element to the resulting list
 			new_list.append(element)
 		# Increment i
-	
-
 	return new_list
 
 print(skip_elements(["a", "b", "c", "d", "e", "f", "g"])) # Should be ['a', 'c', 'e', 'g']
